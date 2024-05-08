@@ -2,7 +2,16 @@ import React, { Component } from "react";
 import ProductsCard from "../components/ProductsCard";
 
 class Home extends Component {
+
+
+  
   render() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const language = urlParams.get('l');
+
+    // Define text content based on the language
+    const welcomeText = language === 'ar' ? "مرحبًا بك<br/>في حلول بناء ماكس" : "Welcome<br/>To Max<br/>Building<br/>Solutions";
+
     return (
       <div>
         <div className="section-slider">
@@ -19,7 +28,7 @@ class Home extends Component {
           <div className="container content overlay-content white" style={{paddingBottom:"70px"}}>
             <div className="row">
               <div className="col-md-6">
-                <h1 className="text-uppercase">Welcome <br/>To Max <br/>Building<br/> Solutions</h1>
+                <h1 className="text-uppercase" dangerouslySetInnerHTML={{ __html: welcomeText }} ></h1>
               </div>
               <div className="col-md-2 pull-right text-right">
                 <hr className="space space-250" style={{height:"150px"}} />
@@ -184,7 +193,7 @@ class Home extends Component {
               <div className="col-md-6">
                 <h2>Get in touch with us</h2>
                 <hr className="space m" />
-                <form action="http://www.framework-y.com/HTWF/scripts/php/contact-form.php" className="form-box form-ajax" method="post" data-email>
+                <form  className="form-box form-ajax" >
                   <input id="name" name="name" placeholder="Full name" type="text" className="form-control form-value" required />
                   <hr className="space s" />
                   <div className="row">
@@ -198,7 +207,7 @@ class Home extends Component {
                   <hr className="space s" />
                   <textarea id="messagge" name="messagge" placeholder="Your message" className="form-control form-value" required defaultValue={""} />
                   <hr className="space m" />
-                  <button className="btn-sm btn" type="submit">Send messagge</button>
+                  <button className="btn-sm btn">Send messagge</button>
                   <div className="success-box">
                     <div className="alert alert-success">Congratulations. Your message has been sent successfully</div>
                   </div>
@@ -210,35 +219,28 @@ class Home extends Component {
               <div className="col-md-6">
                 <hr className="space visible-sm" />
                 <h2>Our contacts</h2>
-                <p>
-                  Lorem ipsum dolor sit amet co  Duis aute irure dolor in reprehenderit
-                  in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
+                
                 <hr className="space m" />
                 <div className="row">
                   <div className="col-md-6">
-                    <h4 className="text-color">Working Hours</h4>
-                    <p className="text-s">
-                      MONDAY TO FRIDAY: 9AM TO 8PM
-                      WEEKEND: 10AM TO 5PM
-                    </p>
-                    <hr className="space m" />
+                   
                     <h4 className="text-color">Email</h4>
                     <p className="text-s">
-                      YOUREMAIL@YOURDOMAIN.COM
+                      info@maxbuildingsolution.com
+                    </p>
+                    <hr className="space m" />
+
+                    <h4 className="text-color">Contact Phone</h4>
+                    <p className="text-s">
+                      +91 848 309 4242
                     </p>
                   </div>
                   <div className="col-md-6">
                     <h4 className="text-color">Address</h4>
                     <p className="text-s">
-                      201 LIVERPOOL STREET, SUITE 721
-                      LONDON, LN 10010
+                      Plot No.12, Nehru Nagar, <br/>Kat Kat Gate, <br/>Aurangabad
                     </p>
-                    <hr className="space m" />
-                    <h4 className="text-color">Contact Phone</h4>
-                    <p className="text-s">
-                      +44 (0) 101 0000 000
-                    </p>
+                    
                   </div>
                 </div>
               </div>

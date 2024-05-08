@@ -46,9 +46,9 @@ export default function Header() {
                 
                 <ul className="nav navbar-nav lan-menu">
                   <li className="dropdown">
-                    <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button">EN</a>
+                    <a href="?l=en" >EN</a>
                     <ul className="dropdown-menu">
-                      <li><a>Ar</a></li>
+                      <li><a href="?l=ar">Ar</a></li>
                     </ul>
                   </li>
                 </ul>

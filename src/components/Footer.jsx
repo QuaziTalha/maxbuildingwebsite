@@ -43,10 +43,11 @@ class Footer extends Component{
           <h3 className="text-black text-uppercase">Useful resources</h3>
           <hr className="space space-30" />
           <div className="footer-menu text-s">
-            <a href="#">NEWSLETTER</a>
+            <a href="#">HOME</a>
             <a href="#">ABOUT US</a>
-            <a href="#">SUBSCRIBE</a>
-            <a href="#">CONTACTS</a>
+            <a href="#">PRODUCTS</a>
+            <a href="#">PROJECTS</a>
+            <a href="#">CONTACT US</a>
           </div>
         </div>
       </div>
