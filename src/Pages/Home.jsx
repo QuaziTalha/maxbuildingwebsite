@@ -10,7 +10,7 @@ class Home extends Component {
     const language = urlParams.get('l');
 
     // Define text content based on the language
-    const welcomeText = language === 'ar' ? "مرحبًا بك<br/>في حلول بناء ماكس" : "Welcome<br/>To Max<br/>Building<br/>Solutions";
+    const welcomeText = language === 'ar' ? "مرحبًا بك<br/>في حلول بناء <br/>ماكس" : "Welcome<br/>To Max<br/>Building<br/>Solutions";
 
     return (
       <div>
