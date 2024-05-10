@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ProductsCard = ({ title, description, imageUrl, link }) => {
+const ProductsCard = ({ title, description, imageUrl, link, style }) => {
   return (
-    <div data-sort={2} className={`maso-item col-md-3 `}>
+    <div  className={`maso-item col-md-3 `} style={style ?? {}}>
       <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href={`./${link}`}>
         <a className="img-box lightbox img-scale-up" href={`./${link}`}>
           <span><img src={imageUrl} alt={title} /></span>

@@ -6,6 +6,7 @@ import About from "./Pages/About";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Products from "./Pages/Products";
 
 class App extends Component {
   componentDidMount() {
@@ -46,7 +47,8 @@ class App extends Component {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about_us" element={<About />} />
+          <Route path="/products" element={<Products />} />
         </Routes>
       </Router>
       <Footer />

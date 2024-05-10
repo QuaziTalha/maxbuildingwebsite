@@ -37,7 +37,7 @@ COLORS
 .pagination>li.page.active a,
 .pagination>li.page:hover a,
 .subline-bar li:hover {
-    background-color: #F5BF23;
+    background-color: #AE34A8;
 }
 
 .white .btn.btn-yellow:before,
@@ -58,7 +58,7 @@ COLORS
 .list-items .list-item:before,
 .nav.inner.ms-minimal>li:before,
 .section-bg-color {
-    background-color: #F5BF23 !important;
+    background-color: #AE34A8 !important;
 }
 
 .btn:not(.btn-border):hover,
@@ -83,7 +83,7 @@ header .btn-border,
 [class*=col-md-]>.tag-row i,
 .content>.tag-row i,
 .box-menu-inner .icon-box i {
-    color: #F5BF23
+    color: #AE34A8
 }
 
 .navbar .navbar-nav.lan-menu li>a:hover,
@@ -101,7 +101,7 @@ header .btn-border,
 .adv-img h2,
 .adv-circle h2,
 header .side-menu-fixed .btn:hover {
-    color: #F5BF23 !important;
+    color: #AE34A8 !important;
 }
 
 .white .btn.btn-yellow,
@@ -132,7 +132,7 @@ div.white .countdown>div:after,
 .list-group-item:hover,
 .list-blog a.img-box,
 .comment-list img {
-    border-color: #F5BF23 !important;
+    border-color: #AE34A8 !important;
 }
 
 body,

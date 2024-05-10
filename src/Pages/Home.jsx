@@ -36,7 +36,7 @@ class Home extends Component {
               </div>
               <div className="col-md-2 pull-right text-right">
                 <hr className="space space-250" style={{height:"150px"}} />
-                <a href="#" className="btn btn-sm btn-border  nav-justified">About US</a>
+                <a href="about_us" className="btn btn-sm btn-border  nav-justified">About US</a>
               </div>
             </div>
           </div>
@@ -90,6 +90,7 @@ class Home extends Component {
                     </p>
                   </div>
                 </li>
+                
               </ul>
             </div>
             <hr />
@@ -101,7 +102,7 @@ class Home extends Component {
                     <p>
                     MAX Building Solutions is a premier provider of innovative and high-quality water drainage solutions for  industrial, commercial, and residential projects. Since our establishment in 2011, we have been dedicated to revolutionizing the water drainage industry with cutting-edge technology, superior craftsmanship
                     </p>
-                    <a href="#" className="btn btn-sm">About us</a>
+                    <a href="about_us" className="btn btn-sm">About us</a>
                   </td>
                   <td>
                     <hr className="space visible-sm" />
@@ -127,7 +128,7 @@ class Home extends Component {
           </div>
         </div>
         
-        <div className="section-empty">
+        {/* <div className="section-empty">
           <div className="container content">
             <h2 className="pull-left">Featured projects</h2>
             <br/>
@@ -137,6 +138,8 @@ class Home extends Component {
                 <div className="navbar-toggle"><i className="fa fa-bars" /><span>Menu</span><i className="fa fa-angle-down" /></div>
                 
               </div>
+
+              
               <div className="maso-box row">
                 <ProductsCard 
                   title="Floor Drain"
@@ -168,10 +171,94 @@ class Home extends Component {
                   link = "floor_cleanout"
                   imageUrl="./template/images/products/products_5_small.jpg"
                 />
+                <ProductsCard 
+                  title="Gully Products"
+                  description="" 
+                  link = "gully_products"
+                  imageUrl="./template/images/products/products_6_small.jpg" 
+                  style={{left:"24.9573%"}}
+                />
+                
                 
                 
                 <div className="clear" />
               </div>
+            </div>
+          </div>
+        </div> */}
+        <div className="section-empty">
+          <div className="container content">
+            <h2 className="pull-left">Featured projects</h2>
+            <br/>
+            <div className="row"></div>
+            {/* <hr className="space visible-sm" /> */}
+            <div className="flexslider carousel outer-navs" data-options="minWidth:200,itemMargin:30,numItems:4,controlNav:true,directionNav:true">
+              <ul className="slides">
+                
+               
+                <li>
+                  <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="floor_drain">
+                    <a className="img-box lightbox img-scale-up" href="floor_drain">
+                      <span><img src="./template/images/products/products_1_small.jpg" alt /></span>
+                    </a>
+                    <div className="advs-box-content">
+                      <h3>Floor Drain</h3>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="modular_drain">
+                    <a className="img-box lightbox img-scale-up" href="modular_drain">
+                      <span><img src="./template/images/products/products_2_small.jpg" alt /></span>
+                    </a>
+                    <div className="advs-box-content">
+                      <h3>Modular Channel</h3>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="slot_drain">
+                    <a className="img-box lightbox img-scale-up" href="slot_drain">
+                      <span><img src="./template/images/products/products_3_small.jpg" alt /></span>
+                    </a>
+                    <div className="advs-box-content">
+                      <h3>Slot Drain Channel</h3>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="shower_channels">
+                    <a className="img-box lightbox img-scale-up" href="shower_channels">
+                      <span><img src="./template/images/products/products_4_small.jpg" alt /></span>
+                    </a>
+                    <div className="advs-box-content">
+                      <h3>Shower Channels</h3>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="floor_cleanout">
+                    <a className="img-box lightbox img-scale-up" href="floor_cleanout">
+                      <span><img src="./template/images/products/products_5_small.jpg" alt /></span>
+                    </a>
+                    <div className="advs-box-content">
+                      <h3>Floor Cleanout</h3>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="gully_products">
+                    <a className="img-box lightbox img-scale-up" href="gully_products">
+                      <span><img src="./template/images/products/products_6_small.jpg" alt /></span>
+                    </a>
+                    <div className="advs-box-content">
+                      <h3>Gully Products</h3>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
             </div>
           </div>
         </div>

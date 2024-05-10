@@ -43,9 +43,9 @@ class Footer extends Component{
           <h3 className="text-black text-uppercase">Useful resources</h3>
           <hr className="space space-30" />
           <div className="footer-menu text-s">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT US</a>
-            <a href="#">PRODUCTS</a>
+            <a href="./">HOME</a>
+            <a href="about_us">ABOUT US</a>
+            <a href="/products">PRODUCTS</a>
             <a href="#">PROJECTS</a>
             <a href="#">CONTACT US</a>
           </div>
@@ -54,7 +54,7 @@ class Footer extends Component{
       <hr className="space hidden-sm" />
       <div className="row copy-row">
         <div className="col-md-12 copy-text">
-          A Website by <a href="http://graphicon.in/">Graphicon Design Studio</a>
+          A Website by <a href="https://graphicon.in/">Graphicon Design Studio</a>
         </div>
       </div>
     </div>

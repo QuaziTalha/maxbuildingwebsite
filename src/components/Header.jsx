@@ -24,15 +24,15 @@ export default function Header() {
             <div className="collapse navbar-collapse">
               <ul className="nav navbar-nav">
                 <li className="dropdown">
-                  <a href="#" >Home <span className="caret" /></a>
+                  <a href="./" >Home <span className="caret" /></a>
                   
                 </li>
                 <li className="dropdown">
-                  <a href="#" >About Us <span className="caret" /></a>
+                  <a href="about_us" >About Us <span className="caret" /></a>
                   
                 </li>
                 <li className="dropdown">
-                  <a href="#" >Products <span className="caret" /></a>
+                  <a href="products" >Products <span className="caret" /></a>
                 </li>
                 <li className="dropdown active">
                   <a href="#" >Projects <span className="caret" /></a>
