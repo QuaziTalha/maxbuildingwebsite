@@ -198,7 +198,7 @@ class Home extends Component {
                
                 <li>
                   <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="floor_drain">
-                    <a className="img-box lightbox img-scale-up" href="floor_drain">
+                    <a className="img-box img-scale-up" href="floor_drain">
                       <span><img src="./template/images/products/products_1_small.jpg" alt /></span>
                     </a>
                     <div className="advs-box-content">
@@ -208,7 +208,7 @@ class Home extends Component {
                 </li>
                 <li>
                   <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="modular_drain">
-                    <a className="img-box lightbox img-scale-up" href="modular_drain">
+                    <a className="img-box img-scale-up" href="modular_drain">
                       <span><img src="./template/images/products/products_2_small.jpg" alt /></span>
                     </a>
                     <div className="advs-box-content">
@@ -218,7 +218,7 @@ class Home extends Component {
                 </li>
                 <li>
                   <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="slot_drain">
-                    <a className="img-box lightbox img-scale-up" href="slot_drain">
+                    <a className="img-box img-scale-up" href="slot_drain">
                       <span><img src="./template/images/products/products_3_small.jpg" alt /></span>
                     </a>
                     <div className="advs-box-content">
@@ -228,7 +228,7 @@ class Home extends Component {
                 </li>
                 <li>
                   <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="shower_channels">
-                    <a className="img-box lightbox img-scale-up" href="shower_channels">
+                    <a className="img-box img-scale-up" href="shower_channels">
                       <span><img src="./template/images/products/products_4_small.jpg" alt /></span>
                     </a>
                     <div className="advs-box-content">
@@ -238,7 +238,7 @@ class Home extends Component {
                 </li>
                 <li>
                   <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="floor_cleanout">
-                    <a className="img-box lightbox img-scale-up" href="floor_cleanout">
+                    <a className="img-box img-scale-up" href="floor_cleanout">
                       <span><img src="./template/images/products/products_5_small.jpg" alt /></span>
                     </a>
                     <div className="advs-box-content">
@@ -248,7 +248,7 @@ class Home extends Component {
                 </li>
                 <li>
                   <div className="advs-box advs-box-top-icon-img boxed-inverse" data-href="gully_products">
-                    <a className="img-box lightbox img-scale-up" href="gully_products">
+                    <a className="img-box img-scale-up" href="gully_products">
                       <span><img src="./template/images/products/products_6_small.jpg" alt /></span>
                     </a>
                     <div className="advs-box-content">

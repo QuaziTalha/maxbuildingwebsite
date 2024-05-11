@@ -4,8 +4,8 @@ import React from "react";
 var ProductCard = ({link, imageUrl, title, description})=>{
     return(
         <div className="grid-item col-md-4">
-            <div className="advs-box advs-box-top-icon-img boxed text-left" data-href>
-                <a className="img-box lightbox img-scale-up" href={link}>
+            <div className="advs-box advs-box-top-icon-img boxed text-left" data-href={link}>
+                <a className="img-box img-scale-up" href={link}>
                     <span><img src={imageUrl} alt /></span>
                 </a>
                 <div className="advs-box-content">

@@ -7,6 +7,11 @@ import About from "./Pages/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Products from "./Pages/Products";
+import FloorDrain from "./Pages/Products/FloorDrain"
+import ModularDrain from "./Pages/Products/ModularDrain"
+import SlotDrain from "./Pages/Products/SlotDrain"
+import ShowerDrain from "./Pages/Products/ShowerDrain"
+import FloorCleanout from "./Pages/Products/FloorCleanout"
 
 class App extends Component {
   componentDidMount() {
@@ -49,6 +54,11 @@ class App extends Component {
           <Route path="/" element={<Home />} />
           <Route path="/about_us" element={<About />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/floor_drain" element={<FloorDrain/>} />
+          <Route path="/modular_drain" element={<ModularDrain/>} />
+          <Route path="/slot_drain" element={<SlotDrain/>} />
+          <Route path="/shower_channels" element={<ShowerDrain/>} />
+          <Route path="/floor_cleanout" element={<FloorCleanout/>} />
         </Routes>
       </Router>
       <Footer />
