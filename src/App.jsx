@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Projects from "./Pages/Projects";
+import Privacy from "./Pages/Privacy";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -54,6 +56,8 @@ class App extends Component {
           <Route path="/" element={<Home />} />
           <Route path="/about_us" element={<About />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="/floor_drain" element={<FloorDrain/>} />
           <Route path="/modular_drain" element={<ModularDrain/>} />
           <Route path="/slot_drain" element={<SlotDrain/>} />

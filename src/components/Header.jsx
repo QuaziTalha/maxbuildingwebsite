@@ -35,7 +35,7 @@ export default function Header() {
                   <a href="products" >Products <span className="caret" /></a>
                 </li>
                 <li className="dropdown active">
-                  <a href="#" >Projects <span className="caret" /></a>
+                  <a href="projects" >Projects <span className="caret" /></a>
                 </li>
                 <li className="dropdown active">
                   <a href="#" >Contact Us <span className="caret" /></a>

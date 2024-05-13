@@ -46,7 +46,8 @@ class Footer extends Component{
             <a href="./">HOME</a>
             <a href="about_us">ABOUT US</a>
             <a href="/products">PRODUCTS</a>
-            <a href="#">PROJECTS</a>
+            <a href="/projects">PROJECTS</a>
+            <a href="/privacy">PRIVACY POLICY</a>
             <a href="#">CONTACT US</a>
           </div>
         </div>
