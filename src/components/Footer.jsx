@@ -35,6 +35,8 @@ class Footer extends Component{
           <hr className="space space-30" />
           <ul className="fa-ul text-s ul-squares">
             <li>Plot No.12, Nehru Nagar, Kat Kat Gate, Aurangabad</li>
+            <li>Meydan Grandstand, 6th floor, Meydan Road,
+            Nad Al Sheba, Dubai, U.A.E.</li>
             <li>info@maxbuildingsolution.com</li>
             <li>+91 848 309 4242</li>
           </ul>
