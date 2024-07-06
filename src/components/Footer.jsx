@@ -39,6 +39,7 @@ class Footer extends Component{
 
             <li><b>India</b>Plot No.12, Nehru Nagar, Kat Kat Gate, Aurangabad</li>
             <li>info@maxbuildingsolution.com</li>
+            <li>+97 155 914 1687</li>
             <li>+91 848 309 4242</li>
           </ul>
         </div>
