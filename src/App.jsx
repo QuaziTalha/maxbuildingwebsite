@@ -1,4 +1,4 @@
-import React , { Component } from "react";
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./Pages/Home";
@@ -9,12 +9,13 @@ import Privacy from "./Pages/Privacy";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Products from "./Pages/Products";
-import FloorDrain from "./Pages/Products/FloorDrain"
-import ModularDrain from "./Pages/Products/ModularDrain"
-import SlotDrain from "./Pages/Products/SlotDrain"
-import ShowerDrain from "./Pages/Products/ShowerDrain"
-import FloorCleanout from "./Pages/Products/FloorCleanout"
-
+import FloorDrain from "./Pages/Products/FloorDrain";
+import ModularDrain from "./Pages/Products/ModularDrain";
+import SlotDrain from "./Pages/Products/SlotDrain";
+import ShowerDrain from "./Pages/Products/ShowerDrain";
+import FloorCleanout from "./Pages/Products/FloorCleanout";
+import TrenchDrainChannel from "./Pages/Products/TrenchDrainChannel";
+import FrameGrate from "./Pages/Products/FrameGrate";
 class App extends Component {
   componentDidMount() {
     this.loadScripts([
@@ -28,47 +29,52 @@ class App extends Component {
       "./template/HTWF/scripts/jquery.tab-accordion.js",
       "./template/HTWF/scripts/isotope.min.js",
       "./template/HTWF/scripts/bootstrap/js/bootstrap.popover.min.js",
-      "./template/HTWF/scripts/jquery.progress-counter.js"
+      "./template/HTWF/scripts/jquery.progress-counter.js",
     ]);
   }
-  
+
   loadScripts(scripts) {
     if (scripts.length === 0) return; // Base case
-    
+
     const script = document.createElement("script");
     script.src = scripts[0];
     script.async = true;
-    
+
     const remainingScripts = scripts.slice(1); // Remove the first script from the array
-    
+
     script.onload = () => {
       this.loadScripts(remainingScripts); // Recursively load the remaining scripts
     };
-    
+
     document.body.appendChild(script);
   }
-  render(){
-  return (
-    <div className="App">
-      <Header />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about_us" element={<About />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/floor_drain" element={<FloorDrain/>} />
-          <Route path="/modular_drain" element={<ModularDrain/>} />
-          <Route path="/slot_drain" element={<SlotDrain/>} />
-          <Route path="/shower_channels" element={<ShowerDrain/>} />
-          <Route path="/floor_cleanout" element={<FloorCleanout/>} />
-        </Routes>
-      </Router>
-      <Footer />
-    </div>
-  );
-}
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about_us" element={<About />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/floor_drain" element={<FloorDrain />} />
+            <Route path="/modular_drain" element={<ModularDrain />} />
+            <Route path="/slot_drain" element={<SlotDrain />} />
+            <Route path="/shower_channels" element={<ShowerDrain />} />
+            <Route path="/floor_cleanout" element={<FloorCleanout />} />
+            <Route
+              path="/trench_drain_channel"
+              element={<TrenchDrainChannel />}
+            />
+            <Route path="/frame_grate" element={<FrameGrate />} />
+          </Routes>
+        </Router>
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;

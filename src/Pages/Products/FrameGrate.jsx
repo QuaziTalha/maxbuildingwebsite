@@ -8,7 +8,7 @@ function Products() {
           <div className="row">
             <div className="col-md-9">
               <div className="title-base text-left">
-                <h1>Floor Cleanout</h1>
+                <h1>Frame Grate</h1>
                 {/* <p>Success is no accident. It is hard work, perseverance, studying, sacrifice and most of all, love of what you are doing or learning to do.</p> */}
               </div>
             </div>
@@ -17,7 +17,7 @@ function Products() {
                 <li>
                   <a href="#">Products</a>
                 </li>
-                <li className="active">Floor Cleanout</li>
+                <li className="active">Frame Grate </li>
               </ol>
             </div>
           </div>
@@ -35,28 +35,28 @@ function Products() {
                   <li>
                     <a
                       className="img-box lightbox"
-                      href="./template/images/products/products_5.jpg"
+                      href="./template/images/products/frame grate.jpg"
                       data-lightbox-anima="fade-top"
                     >
                       <img
-                        src="./template/images/products/products_5.jpg"
-                        alt
+                        src="./template/images/products/frame grate.jpg"
+                        alt=""
                       />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="img-box lightbox"
-                      href="./template/images/products/products_5_1.jpg"
+                      href="./template/images/products/trench drain channel01.jpg"
                       data-lightbox-anima="fade-top"
                     >
                       <img
-                        src="./template/images/products/products_5_1.jpg"
-                        alt
+                        src="./template/images/products/trench drain channel01.jpg"
+                        alt=''
                       />
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a
                       className="img-box lightbox"
                       href="./template/images/products/products_5_2.jpg"
@@ -67,8 +67,8 @@ function Products() {
                         alt
                       />
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a
                       className="img-box lightbox"
                       href="./template/images/products/products_5_3.jpg"
@@ -79,7 +79,7 @@ function Products() {
                         alt
                       />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -87,30 +87,70 @@ function Products() {
               <h2 className="text-color">Description</h2>
               <hr className="space m" />
               <p>
-                Our floor cleanouts are essential components for maintaining
-                clean and hygienic drainage systems. Designed for easy access
-                and maintenance, they ensure efficient removal of debris and
-                prevent clogging for uninterrupted water flow.
+                Our Frame with Grating are designed for effective wastewater
+                management across various settings, combining durability, high
+                performance, and easy maintenance. Crafted from premium
+                stainless steel, our floor drains meet stringent hygiene and
+                quality standards, ensuring lasting reliability.
               </p>
               {/* <hr className="space s" /> */}
               {/* <a href="#" className="btn-text text-color"> Visit website</a> */}
             </div>
           </div>
           <hr className="space" />
-          <h2>Specification</h2>
+          <h2 style={{ lineHeight: "0" }}>Specifation</h2>
+          <p>
+            MAX Building Solutions' Frame with Grating are designed for
+            effective wastewater management across various settings, combining
+            durability, high performance, and easy mainte- nance. Crafted from
+            premium stainless steel, our floor drains meet stringent hygiene and
+            quality standards, ensuring lasting reliability.
+          </p>
+          <br />
+          <h2 style={{ lineHeight: "0", fontSize: "23px" }}>Key Features:</h2>
+          <p>
+            <ul>
+              <li>
+                {" "}
+                According to EN 1253-2:2015 Designed and optimised for use in
+                commercial.{" "}
+              </li>
+              <li>
+                Available along with gratings for load classes up to C 250 (EN
+                1253).
+              </li>
+              <li>
+                {" "}
+                Mesh grating sleep resistant as per DIN 51130. Suitable for
+                vinyl, tiled, concrete and resin floors.
+              </li>
+              <li>
+                Frame with grating can be fully customised as per the site
+                requirements.
+              </li>
+              <li>
+                {" "}
+                The size of Frame & grating are specified by (Width X Length X
+                Height).
+              </li>
+              <li>
+                Material Options: Available in high-quality stainless steel
+                grades:
+                <ul>
+                  <li> 1.4301 (Grade 304)</li> or <li>1.4404 (Grade 316L). </li>
+                  <li> Galvanized Steel.</li>
+                </ul>
+              </li>
+            </ul>
+          </p>
+          <hr className="space m" />
+          <h2>Types Of Frame With Grating</h2>
           <hr className="space m" />
           <img
-            src="./template/images/products/products_5_type.png"
-            style={{ width: "100%" }}
+            src="./template/images/products/types of frame grates.png"
+            style={{ width: "50%", height: "300px", objectFit: "contain" }}
             alt=""
           />
-
-          <div class="row">
-            <img
-              src="./template/images/products/products_5_type.jpg"
-              alt="products_5_type"
-            />
-          </div>
         </div>
       </div>
     </div>
